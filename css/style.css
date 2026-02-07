@@ -54,7 +54,7 @@ h2 {
     padding: 20px 30px;
     font-size: 28px;
     font-weight: bold;
-    text-align: start;
+    text-align: flex;
     padding: 10px 300px;
 
 }
@@ -106,3 +106,4 @@ h4 {
 
 
 }
+
