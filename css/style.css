@@ -37,7 +37,15 @@ h1 {
 }
 
 .image-style {
-    padding: 10px 300px;
+    display: block;
+    margin: auto;
+    width: 50%;
+
+    background: antiquewhite;
+    border: 10px;
+    border-radius: 10px;
+    
+    padding: 10px 10px;
     max-width: 600px;
     max-height: 600px;
 }
@@ -95,5 +103,6 @@ h4 {
 }
 .Contact-style {
     text-align: center;
+
 
 }
