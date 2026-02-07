@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: rgb(65, 66, 66);
+    padding: 20px 10px;
+}
+
+.header a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header-pos {
+    float: right;
+}
+
+.haeder a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-style {
+    padding: 10px 300px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+h2 {
+    padding: 20px 30px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: start;
+    padding: 10px 300px;
+
+}
+
+.paragraph-style {
+    
+    text-align: center;
+    padding: 10px 100px;
+    margin: 20px 200px;
+
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: auto;
+    text-align: center;
+
+}
+
+.section {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.Project-style {
+    background: blanchedalmond;
+    Padding: 30px;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h4 { 
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+.Contact-style {
+    text-align: center;
+
+}
