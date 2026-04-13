@@ -1,0 +1,197 @@
+.page-shell {
+  min-height: 100vh;
+  background-color: #f2ede8;
+  color: #3d2728;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.page-header {
+  padding: 2rem 1rem 0;
+}
+
+.nav-row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #7c1d23;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.resume-link {
+  color: #7c1d23;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #7c1d23;
+  padding: 0.6rem 1rem;
+  border-radius: 9999px;
+}
+
+.hero-section {
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-left h1 {
+  margin: 0;
+  font-size: clamp(4rem, 8vw, 7rem);
+  line-height: 0.9;
+  color: #7c1d23;
+  text-transform: lowercase;
+  font-family: Inter;
+  font-weight: 900;
+}
+
+.hero-right {
+  position: relative;
+  min-height: 420px;
+}
+
+.hero-divider {
+  position: absolute;
+  width: 2px;
+  height: 420px;
+  top: 0;
+  right: -24px;
+  background-color: #7c1d23;
+}
+
+.hero-bg-block,
+.hero-overlay-block,
+.hero-photo,
+.about-image {
+  border-radius: 2rem;
+}
+
+.hero-photo {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  background-color: #d0a5a0;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+  border-radius: 2rem;
+}
+
+.about-section {
+  max-width: 1200px;
+  margin: 4rem auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-left {
+  border-left: 4px solid #7c1d23;
+  padding-left: 1rem;
+}
+
+.about-left h2 {
+  margin: 0;
+  font-size: clamp(3rem, 6vw, 5rem);
+  color: #7c1d23;
+  text-transform: lowercase;
+  font-family: Inter;
+  font-weight: 900;
+}
+
+.about-right {
+  position: relative;
+}
+
+.about-right h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(3rem, 6vw, 5rem);
+  color: #7c1d23;
+  text-transform: lowercase;
+  font-family: Inter;
+  font-weight: 900;
+}
+
+
+.about-image {
+  width: 100%;
+  min-height: 360px;
+  background-color: #d9b4b1;
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.12);
+}
+
+
+.main-sections {
+  max-width: 1200px;
+  margin: 4rem auto 3rem;
+  padding: 0 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.section-card {
+  background-color: #f7ede8;
+  border: 1px solid #d9b4b1;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  margin: 0 0 1rem;
+  font-size: 1.9rem;
+  color: #7c1d23;
+  font-family: Inter;
+  font-weight: 900;
+}
+
+.section-card ul {
+  list-style: disc inside;
+  color: #5d3736;
+  margin: 0;
+  padding: 0;
+}
+
+.section-card li {
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 960px) {
+  .hero-section,
+  .about-section,
+  .main-sections {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-right,
+  .about-image {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-left h1 {
+    font-size: 4rem;
+  }
+}
